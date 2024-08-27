@@ -25,7 +25,7 @@ pipeline {
                 sh "docker login -u ${env.dockerHubUser} -p ${env.dockerHubPass}"
                 sh "docker tag react-front-end:latest dhananjayshelke/react-front-end:latest"
                 sh "docker push dhananjayshelke/react-front-end:latest"
-                echo 'image push ho gaya'
+                
                 }
             }
         }
