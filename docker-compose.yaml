@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "dhananjayshelke/react-front-end:latest"
+    ports:
+      - "3000:3000"
